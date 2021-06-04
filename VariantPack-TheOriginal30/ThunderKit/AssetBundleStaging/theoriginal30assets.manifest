@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 3040578012
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b42724af03328b81bc0738e40793bb1c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22ddaf5b0a7fe57cdbc337231be3cc49
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1230585875, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
+- Class: 114
+  Script: {fileID: 87657128, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
+- Class: 114
+  Script: {fileID: 1852376608, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
+- Class: 114
+  Script: {fileID: 12825916, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundle/Shaders/fx/hgdistortion.shader
+- Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitDiffuse.png
+- Assets/AssetBundle/Shaders/environment/hgdistantwater.shader
+- Assets/AssetBundle/Shaders/fx/hgsolidparallax.shader
+- Assets/AssetBundle/Shaders/ui/hguibarremap.shader
+- Assets/AssetBundle/Shaders/environment/hggrass.shader
+- Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitNormal.png
+- Assets/AssetBundle/Shaders/fx/hgcloudremap.shader
+- Assets/AssetBundle/Shaders/ui/hguiignorez.shader
+- Assets/AssetBundle/Shaders/fx/hgvertexonly.shader
+- Assets/AssetBundle/Material/RoR2Materials/Perforator/matFireballsOnHit.mat
+- Assets/AssetBundle/Shaders/postprocess/hgscreendamage.shader
+- Assets/AssetBundle/Shaders/ui/hguicustomblend.shader
+- Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlameThrowerLemurian.asset
+- Assets/AssetBundle/Shaders/postprocess/hgoutlinehighlight.shader
+- Assets/AssetBundle/Shaders/fx/hgopaquecloudremap.shader
+- Assets/AssetBundle/Shaders/fx/hgforwardplanet.shader
+- Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/VariantConfig.asset
+- Assets/AssetBundle/Shaders/environment/hgwaterfall.shader
+- Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/PerforatorMat.asset
+- Assets/AssetBundle/Shaders/deferred/hgsnowtopped.shader
+- Assets/AssetBundle/Shaders/postprocess/hgsobelbuffer.shader
+- Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitEmission.png
+- Assets/AssetBundle/Shaders/ui/hguioverbrighten.shader
+- Assets/AssetBundle/Shaders/fx/hgintersectioncloudremap.shader
+- Assets/AssetBundle/Material/RoR2Materials/Perforator/texRampDroneFire.png
+- Assets/AssetBundle/Shaders/ui/hguiblur.shader
+- Assets/AssetBundle/Shaders/deferred/hgwavycloth.shader
+- Assets/AssetBundle/Shaders/deferred/hgtriplanarterrainblend.shader
+- Assets/AssetBundle/Shaders/fx/hgdamagenumber.shader
+- Assets/AssetBundle/Inventories/RapidFireInventory/BackupMagazine.asset
+- Assets/AssetBundle/Inventories/RapidFireInventory/AlienHeads.asset
+- Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/PerforatorMat 1.asset
+- Assets/AssetBundle/Shaders/deferred/hgstandard.shader
+- Assets/AssetBundle/Shaders/ui/hguianimatealpha.shader
+- Assets/AssetBundle/Shaders/postprocess/hgscopeshader.shader
+Dependencies: []
