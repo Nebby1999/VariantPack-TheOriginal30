@@ -14,28 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   identifierName: TO30_SpeedyBeetle
   bodyName: Beetle
-  overrideName: Speedy Beetle
-  unique: 0
+  overrideName:
+  - {fileID: 11400000, guid: 47e077774b0848144a0090ee37703343, type: 2}
   isModded: 0
+  variantConfig: {fileID: 11400000, guid: bda10db540944064880042e6390e4a9f, type: 2}
+  unique: 0
   aiModifier: 2
-  spawnRate: 0
   variantTier: 0
+  spawnRate: 0
+  givesRewards: 1
+  customVariantReward: {fileID: 0}
   customInventory:
   - {fileID: 11400000, guid: 1eb21ee724da4bf4083088976be036af, type: 2}
   customEquipment: {fileID: 0}
   usesEquipment: 0
-  meshReplacement: []
-  materialReplacement: []
-  skillReplacement: []
-  sizeModifier: {fileID: 0}
   buff: []
+  skillReplacement: []
   healthMultiplier: 1
   moveSpeedMultiplier: 1
   attackSpeedMultiplier: 3
   damageMultiplier: 1
   armorMultiplier: 1
   armorBonus: 0
-  givesRewards: 1
-  customVariantReward: {fileID: 0}
   arrivalMessage: 
-  variantConfig: {fileID: 11400000, guid: bda10db540944064880042e6390e4a9f, type: 2}
+  meshReplacement: []
+  materialReplacement: []
+  sizeModifier: {fileID: 0}

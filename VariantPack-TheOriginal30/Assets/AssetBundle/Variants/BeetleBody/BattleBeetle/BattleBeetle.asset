@@ -14,28 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   identifierName: TO30_BattleBeetle
   bodyName: Beetle
-  overrideName: Battle Beetle
-  unique: 0
+  overrideName:
+  - {fileID: 11400000, guid: c74e24352f6fb8442a38e933ac212cd4, type: 2}
   isModded: 0
+  variantConfig: {fileID: 11400000, guid: 5bae7f4c46751f640bf7d59cb4d71de4, type: 2}
+  unique: 0
   aiModifier: 0
-  spawnRate: 0
   variantTier: 0
+  spawnRate: 0
+  givesRewards: 1
+  customVariantReward: {fileID: 0}
   customInventory: []
   customEquipment: {fileID: 0}
   usesEquipment: 0
-  meshReplacement: []
-  materialReplacement: []
+  buff: []
   skillReplacement:
   - {fileID: 11400000, guid: cb505c375d4163e46ac9a0c25e79d6ea, type: 2}
-  sizeModifier: {fileID: 0}
-  buff: []
   healthMultiplier: 1
   moveSpeedMultiplier: 1
   attackSpeedMultiplier: 1
   damageMultiplier: 2
   armorMultiplier: 1
   armorBonus: 0
-  givesRewards: 1
-  customVariantReward: {fileID: 0}
   arrivalMessage: 
-  variantConfig: {fileID: 11400000, guid: 5bae7f4c46751f640bf7d59cb4d71de4, type: 2}
+  meshReplacement: []
+  materialReplacement: []
+  sizeModifier: {fileID: 0}

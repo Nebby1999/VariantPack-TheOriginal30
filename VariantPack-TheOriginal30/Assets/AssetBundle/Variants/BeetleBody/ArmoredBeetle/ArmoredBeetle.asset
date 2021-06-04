@@ -14,27 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   identifierName: TO30_ArmoredBeetle
   bodyName: Beetle
-  overrideName: Armored Beetle
-  unique: 0
+  overrideName:
+  - {fileID: 11400000, guid: a723147fc256f634196aee4ca44fc95c, type: 2}
   isModded: 0
+  variantConfig: {fileID: 11400000, guid: a994886389ed7504ab42121af43dbffe, type: 2}
+  unique: 0
   aiModifier: 0
-  spawnRate: 0
   variantTier: 0
+  spawnRate: 0
+  givesRewards: 1
+  customVariantReward: {fileID: 0}
   customInventory: []
   customEquipment: {fileID: 0}
   usesEquipment: 0
-  meshReplacement: []
-  materialReplacement: []
-  skillReplacement: []
-  sizeModifier: {fileID: 11400000, guid: b6eee3a335a4477488b9d66176c9b0e0, type: 2}
   buff: []
+  skillReplacement: []
   healthMultiplier: 3
   moveSpeedMultiplier: 0
   attackSpeedMultiplier: 0
   damageMultiplier: 0
   armorMultiplier: 0
   armorBonus: 20
-  givesRewards: 1
-  customVariantReward: {fileID: 0}
   arrivalMessage: 
-  variantConfig: {fileID: 11400000, guid: a994886389ed7504ab42121af43dbffe, type: 2}
+  meshReplacement: []
+  materialReplacement: []
+  sizeModifier: {fileID: 11400000, guid: b6eee3a335a4477488b9d66176c9b0e0, type: 2}

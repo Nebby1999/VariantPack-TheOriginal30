@@ -14,30 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   identifierName: TO30_FlameThrowerLemurian
   bodyName: Lemurian
-  overrideName: Flamethrower Lemurian
-  unique: 0
+  overrideName:
+  - {fileID: 11400000, guid: 6431fb03cf3e46d43b49c04f411fb4cc, type: 2}
   isModded: 0
+  variantConfig: {fileID: 11400000, guid: fbd4adaa1a09b4342950496b73db3ce3, type: 2}
+  unique: 0
   aiModifier: 0
-  spawnRate: 0
   variantTier: 2
+  spawnRate: 0
+  givesRewards: 1
+  customVariantReward: {fileID: 0}
   customInventory:
   - {fileID: 11400000, guid: 98cd070f50e9831488aa529dd6fc2a0b, type: 2}
   - {fileID: 11400000, guid: 91fdf2dd53bd20d4fb0f4b3be4abe3c9, type: 2}
   customEquipment: {fileID: 0}
   usesEquipment: 0
-  meshReplacement: []
-  materialReplacement:
-  - {fileID: 11400000, guid: b438df3f5d6f61748b76ed3813df68c2, type: 2}
-  skillReplacement: []
-  sizeModifier: {fileID: 0}
   buff: []
+  skillReplacement: []
   healthMultiplier: 1
   moveSpeedMultiplier: 1
   attackSpeedMultiplier: 30
   damageMultiplier: 0.6
   armorMultiplier: 1
   armorBonus: 0
-  givesRewards: 1
-  customVariantReward: {fileID: 0}
   arrivalMessage: 
-  variantConfig: {fileID: 11400000, guid: fbd4adaa1a09b4342950496b73db3ce3, type: 2}
+  meshReplacement: []
+  materialReplacement:
+  - {fileID: 11400000, guid: a50740eb502e5cb46ab69427fd989cc4, type: 2}
+  sizeModifier: {fileID: 0}
