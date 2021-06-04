@@ -1,20 +1,34 @@
 ManifestFileVersion: 0
-CRC: 3040578012
+CRC: 3539052743
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b42724af03328b81bc0738e40793bb1c
+    Hash: b7675c9e82b55c5a3e8a5a0b92d1a423
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 22ddaf5b0a7fe57cdbc337231be3cc49
+    Hash: d62073f006509d289e970339c74df56d
 HashAppended: 0
 ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
 - Class: 21
+  Script: {instanceID: 0}
+- Class: 23
   Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -281164913, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
+  Script: {fileID: 1391837873, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
 - Class: 114
   Script: {fileID: -1230585875, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
 - Class: 114
@@ -23,29 +37,58 @@ ClassTypes:
   Script: {fileID: 1852376608, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
 - Class: 114
   Script: {fileID: 12825916, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
+- Class: 114
+  Script: {fileID: 497398634, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
+- Class: 114
+  Script: {fileID: -1868806056, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 Assets:
+- Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texBeetleGlandNormal.png
 - Assets/AssetBundle/Shaders/fx/hgdistortion.shader
+- Assets/AssetBundle/Meshes/meshArmoredBeetle.obj
+- Assets/Resources/shaders/deferred/hgstandard.shader
+- Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texBeetleGlandDiffuse.png
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitDiffuse.png
 - Assets/AssetBundle/Shaders/environment/hgdistantwater.shader
 - Assets/AssetBundle/Shaders/fx/hgsolidparallax.shader
+- Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/VariantConfig.asset
+- Assets/AssetBundle/TheOriginal30Content.asset
+- Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/SkillReplacement.asset
 - Assets/AssetBundle/Shaders/ui/hguibarremap.shader
 - Assets/AssetBundle/Shaders/environment/hggrass.shader
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitNormal.png
+- Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texRampBeetleQueen.png
 - Assets/AssetBundle/Shaders/fx/hgcloudremap.shader
 - Assets/AssetBundle/Shaders/ui/hguiignorez.shader
+- Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/VariantConfig.asset
 - Assets/AssetBundle/Shaders/fx/hgvertexonly.shader
+- Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/VariantSizeModifier.asset
+- Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle.asset
+- Assets/AssetBundle/Meshes/meshSpeedyBeetle.obj
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/matFireballsOnHit.mat
+- Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle.asset
+- Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/VariantConfig.asset
+- Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/HeavyHeadbutt.asset
 - Assets/AssetBundle/Shaders/postprocess/hgscreendamage.shader
 - Assets/AssetBundle/Shaders/ui/hguicustomblend.shader
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlameThrowerLemurian.asset
+- Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/SpeedyBeetle.asset
+- Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texCloudOrganic2.png
+- Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/VariantSkillReplacement.asset
+- Assets/AssetBundle/Inventories/SpeedInventory/GoatHoof.asset
+- Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texRampHealingAura.png
+- Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicHeadbutt.asset
+- Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle.asset
 - Assets/AssetBundle/Shaders/postprocess/hgoutlinehighlight.shader
 - Assets/AssetBundle/Shaders/fx/hgopaquecloudremap.shader
+- Assets/AssetBundle/Material/RoR2Materials/BeetleGland/matBeetleGland.mat
+- Assets/AssetBundle/Inventories/AlienHeads/ItemInfo.asset
 - Assets/AssetBundle/Shaders/fx/hgforwardplanet.shader
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/VariantConfig.asset
 - Assets/AssetBundle/Shaders/environment/hgwaterfall.shader
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/PerforatorMat.asset
+- Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/VariantConfig.asset
 - Assets/AssetBundle/Shaders/deferred/hgsnowtopped.shader
 - Assets/AssetBundle/Shaders/postprocess/hgsobelbuffer.shader
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitEmission.png
@@ -57,6 +100,8 @@ Assets:
 - Assets/AssetBundle/Shaders/deferred/hgtriplanarterrainblend.shader
 - Assets/AssetBundle/Shaders/fx/hgdamagenumber.shader
 - Assets/AssetBundle/Inventories/RapidFireInventory/BackupMagazine.asset
+- Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/MaterialReplacement.asset
+- Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texBeetleGlandEmission.png
 - Assets/AssetBundle/Inventories/RapidFireInventory/AlienHeads.asset
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/PerforatorMat 1.asset
 - Assets/AssetBundle/Shaders/deferred/hgstandard.shader

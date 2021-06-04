@@ -9,6 +9,7 @@ using System.Security.Permissions;
 using System.Reflection;
 using System.IO;
 using RoR2.ContentManagement;
+using EntityStates;
 
 [module: UnverifiableCode]
 #pragma warning disable CS0618 // Type or member is obsolete
@@ -35,6 +36,11 @@ namespace TheOriginal30
         {
             var VR = new VariantRegister();
             VR.RegisterConfigs(theOriginal30Assets, Config);
+			foreach (var entityState in TheOriginal30.VariantEntityStates.TO30EntityStates.EntityStates)
+            {
+				var state = new SerializableEntityStateType(typeof(VariantEntityStates.Beetle.HeavyHeadbutt));
+				Debug.Log(state.typeName);
+            }
         }
         public void LoadAssetsAndRegisterContentPack()
         {
