@@ -17,7 +17,7 @@ using EntityStates;
 #pragma warning restore CS0618 // Type or member is obsolete
 namespace TheOriginal30
 {
-    [BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "0.1.0")]
+    [BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "0.0.1")]
     [BepInDependency("com.Nebby.VarianceAPI", BepInDependency.DependencyFlags.HardDependency)]
     public class MainClass : BaseUnityPlugin
     {
@@ -36,11 +36,11 @@ namespace TheOriginal30
         {
             var VR = new VariantRegister();
             VR.RegisterConfigs(theOriginal30Assets, Config);
-			foreach (var entityState in TheOriginal30.VariantEntityStates.TO30EntityStates.EntityStates)
+			/*foreach (var entityState in TheOriginal30.VariantEntityStates.TO30EntityStates.EntityStates)
             {
-				var state = new SerializableEntityStateType(typeof(VariantEntityStates.Beetle.HeavyHeadbutt));
+				var state = new SerializableEntityStateType(typeof(VariantEntityStates.Beetle.ToxicHeadbutt));
 				Debug.Log(state.typeName);
-            }
+            }*/
         }
         public void LoadAssetsAndRegisterContentPack()
         {
