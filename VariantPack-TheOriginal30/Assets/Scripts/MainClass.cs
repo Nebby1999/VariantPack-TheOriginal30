@@ -34,9 +34,7 @@ namespace TheOriginal30
 
         public void Init()
         {
-			var MG = new MaterialGrabber();
-			MG.Init();
-			var VR = new VariantRegister();
+            var VR = new VariantRegister();
             VR.RegisterConfigs(theOriginal30Assets, Config);
 			/*foreach (var entityState in TheOriginal30.VariantEntityStates.TO30EntityStates.EntityStates)
             {

@@ -37,7 +37,7 @@ MonoBehaviour:
   damageMultiplier: 0.6
   armorMultiplier: 1
   armorBonus: 0
-  arrivalMessage: Penis!
+  arrivalMessage: 
   meshReplacement: []
   materialReplacement:
   - {fileID: 11400000, guid: a50740eb502e5cb46ab69427fd989cc4, type: 2}
