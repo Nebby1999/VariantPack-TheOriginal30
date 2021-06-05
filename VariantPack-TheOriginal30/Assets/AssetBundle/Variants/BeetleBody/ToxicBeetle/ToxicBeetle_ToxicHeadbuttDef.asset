@@ -17,10 +17,10 @@ MonoBehaviour:
   skillDescriptionToken: 
   keywordTokens: []
   icon: {fileID: 0}
-  activationStateMachineName: body
+  activationStateMachineName: Body
   activationState:
-    _typeName: TheOriginal30.EntityStates.Beetle.ToxicHeadbutt, TheOriginal30, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+    _typeName: TheOriginal30.VariantEntityStates.Beetle.ToxicHeadbutt, TheOriginal30,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   interruptPriority: 1
   baseRechargeInterval: 0
   baseMaxStock: 1
