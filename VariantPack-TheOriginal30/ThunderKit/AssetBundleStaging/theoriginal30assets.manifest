@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 364478274
+CRC: 484481576
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3cb955fcb3dd45727d2474f86b6e8f01
+    Hash: 37770e404f5404c1238c53950f42a279
   TypeTreeHash:
     serializedVersion: 2
     Hash: 71b4b98c56821766186052572d6f3e8a
@@ -48,19 +48,23 @@ ClassTypes:
 - Class: 115
   Script: {instanceID: 0}
 Assets:
+- Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_SkillReplacement.asset
 - Assets/AssetBundle/Material/RoR2Materials/MagmaWormFireballTrail/texRampMagmaWorm.png
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texBeetleGlandNormal.png
 - Assets/AssetBundle/Shaders/fx/hgdistortion.shader
 - Assets/AssetBundle/Meshes/meshArmoredBeetle.obj
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texBeetleGlandDiffuse.png
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitDiffuse.png
+- Assets/AssetBundle/Material/RoR2Materials/VisionsMat/texRampTwotoneWhite.png
 - Assets/AssetBundle/Shaders/environment/hgdistantwater.shader
 - Assets/AssetBundle/Shaders/fx/hgsolidparallax.shader
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_VariantConfig.asset
 - Assets/AssetBundle/TheOriginal30Content.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_SkillReplacement.asset
+- Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_SizeModifier.asset
 - Assets/AssetBundle/Shaders/ui/hguibarremap.shader
 - Assets/AssetBundle/Shaders/environment/hggrass.shader
+- Assets/AssetBundle/Material/RoR2Materials/VisionsMat/texBirdEyeDiffuse 1.png
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitNormal.png
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texRampBeetleQueen.png
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_OverrideName.asset
@@ -77,11 +81,13 @@ Assets:
 - Assets/AssetBundle/Material/RoR2Materials/MagmaWormFireballTrail/matMagmaWormFireballTrail.mat
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_OverrideName.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_OverrideName.asset
+- Assets/AssetBundle/Material/RoR2Materials/VisionsMat/texBirdEyeDiffuse2.png
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/matFireballsOnHit.mat
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle.asset
 - Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/SpeedyBeetle_VariantConfig.asset
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_HeavyHeadbuttDef.asset
 - Assets/AssetBundle/Shaders/postprocess/hgscreendamage.shader
+- Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearNovaDef.asset
 - Assets/AssetBundle/Shaders/ui/hguicustomblend.shader
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlameThrowerLemurian.asset
 - Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/SpeedyBeetle.asset
@@ -99,6 +105,7 @@ Assets:
 - Assets/AssetBundle/Material/RoR2Materials/MagmaWormFireballTrail/texBehemothTileMask.png
 - Assets/AssetBundle/Shaders/postprocess/hgoutlinehighlight.shader
 - Assets/AssetBundle/Shaders/fx/hgopaquecloudremap.shader
+- Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_VariantConfig.asset
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/matBeetleGland.mat
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_VariantExtraComponent.asset
@@ -109,6 +116,8 @@ Assets:
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_VariantConfig.asset
 - Assets/AssetBundle/Shaders/deferred/hgsnowtopped.shader
+- Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_VariantConfig.asset
+- Assets/AssetBundle/Material/RoR2Materials/VisionsMat/texRampLightningYellow.png
 - Assets/AssetBundle/Shaders/postprocess/hgsobelbuffer.shader
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/texFireballsOnHitEmission.png
 - Assets/AssetBundle/Shaders/ui/hguioverbrighten.shader
@@ -117,12 +126,15 @@ Assets:
 - Assets/AssetBundle/Shaders/ui/hguiblur.shader
 - Assets/AssetBundle/Shaders/deferred/hgwavycloth.shader
 - Assets/AssetBundle/Shaders/deferred/hgtriplanarterrainblend.shader
+- Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish.asset
 - Assets/AssetBundle/Shaders/fx/hgdamagenumber.shader
 - Assets/AssetBundle/Inventories/RapidFireInventory/BackupMagazine.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_MaterialReplacement.asset
+- Assets/AssetBundle/Material/RoR2Materials/VisionsMat/matBirdEye.mat
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texBeetleGlandEmission.png
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_SkillReplacement.asset
 - Assets/AssetBundle/Inventories/RapidFireInventory/AlienHeads.asset
+- Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_OverrideName.asset
 - Assets/AssetBundle/Shaders/deferred/hgstandard.shader
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle_OverrideName.asset
 - Assets/AssetBundle/Shaders/ui/hguianimatealpha.shader

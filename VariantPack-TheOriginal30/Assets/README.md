@@ -30,13 +30,6 @@ While not all Variants from the original mod are here, they **will** eventually 
 	- 3000% attack speed
 	- 60% damage
 
-Unlike the original MonsterVariants, all the Variants from this Variant pack can be made Unique, this means that the Variant will never participate in the VariantOverlapping shenanigans (No more Flamethrower Badass Lemurian)
-
-## Missing Variants
-
-The Following Variants are yet to be implemented.
-
-
 	Badass Lemurian (2% chance)
 	- Has a missile launcher
 
@@ -55,6 +48,13 @@ The Following Variants are yet to be implemented.
 	- +20 armor
 	- 600% damage
 	- Larger blast radius, applies Cripple debuff
+
+Unlike the original MonsterVariants, all the Variants from this Variant pack can be made Unique, this means that the Variant will never participate in the VariantOverlapping shenanigans (No more Flamethrower Badass Lemurian)
+
+## Missing Variants
+
+The Following Variants are yet to be implemented.
+
 
 	Spectral Jellyfish (4% chance)
 	- 1 Dio's Best Friend
@@ -191,9 +191,23 @@ The Following Variants are yet to be implemented.
 
 ## Known Issues
 
+	- NuclearJellyfish' material might not be the same as the original's
+
     - Mesh Swaps are currently not implemented in VarianceAPI, as such, the Armored Beetle doesnt have it's meshswap.
 
 ## Changelog
+'0.0.2'
+
+- Added back the following variants:
+
+	* Badass Lemurian
+
+	* Molten Elder Lemurian
+
+	* Nuclear Jellyfish
+
+- Updated to use VarianceAPI 0.4.0
+
 '0.0.1'
 
 - Initial Release
