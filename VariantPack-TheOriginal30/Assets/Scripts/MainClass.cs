@@ -10,6 +10,8 @@ using System.Reflection;
 using System.IO;
 using RoR2.ContentManagement;
 using EntityStates;
+using RoR2;
+using Path = System.IO.Path;
 
 [module: UnverifiableCode]
 #pragma warning disable CS0618 // Type or member is obsolete
@@ -17,21 +19,28 @@ using EntityStates;
 #pragma warning restore CS0618 // Type or member is obsolete
 namespace TheOriginal30
 {
-    [BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "0.0.1")]
-    [BepInDependency("com.Nebby.VarianceAPI", BepInDependency.DependencyFlags.HardDependency)]
-    public class MainClass : BaseUnityPlugin
-    {
-        public static MainClass instance;
-        public static AssetBundle theOriginal30Assets = null;
-        internal static string assetBundleName = "TheOriginal30Assets";
+	[BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "0.0.1")]
+	[BepInDependency("com.Nebby.VarianceAPI", BepInDependency.DependencyFlags.HardDependency)]
+	public class MainClass : BaseUnityPlugin
+	{
+		public static MainClass instance;
+		public static AssetBundle theOriginal30Assets = null;
+		internal static string assetBundleName = "TheOriginal30Assets";
 
-        public void Awake()
+		internal static GameObject missileLauncherDisplayPrefab; // gotta cache this for lemurians
+
+		public void Awake()
         {
             instance = this;
+			GrabMaterials();
             LoadAssetsAndRegisterContentPack();
             Init();
         }
-
+		private void GrabMaterials()
+        {
+			ItemDisplayRuleSet IDRS = Resources.Load<GameObject>("Prefabs/CharacterBodies/CommandoBody").GetComponent<ModelLocator>().modelTransform.GetComponent<CharacterModel>().itemDisplayRuleSet;
+			missileLauncherDisplayPrefab = IDRS.FindDisplayRuleGroup(RoR2Content.Equipment.CommandMissile).rules[0].followerPrefab;
+		}
         public void Init()
         {
             var VR = new VariantRegister();
