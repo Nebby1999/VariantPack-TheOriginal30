@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1189973804
+CRC: 364478274
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5659c3563dfefc88d0febc87a708a340
+    Hash: 3cb955fcb3dd45727d2474f86b6e8f01
   TypeTreeHash:
     serializedVersion: 2
     Hash: 71b4b98c56821766186052572d6f3e8a
@@ -48,6 +48,7 @@ ClassTypes:
 - Class: 115
   Script: {instanceID: 0}
 Assets:
+- Assets/AssetBundle/Material/RoR2Materials/MagmaWormFireballTrail/texRampMagmaWorm.png
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texBeetleGlandNormal.png
 - Assets/AssetBundle/Shaders/fx/hgdistortion.shader
 - Assets/AssetBundle/Meshes/meshArmoredBeetle.obj
@@ -67,9 +68,13 @@ Assets:
 - Assets/AssetBundle/Shaders/ui/hguiignorez.shader
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle_VariantConfig.asset
 - Assets/AssetBundle/Shaders/fx/hgvertexonly.shader
+- Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian_VariantConfig.asset
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle_SizeModifier.asset
+- Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle.asset
 - Assets/AssetBundle/Meshes/meshSpeedyBeetle.obj
+- Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian_OverrideName.asset
+- Assets/AssetBundle/Material/RoR2Materials/MagmaWormFireballTrail/matMagmaWormFireballTrail.mat
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_OverrideName.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_OverrideName.asset
 - Assets/AssetBundle/Material/RoR2Materials/Perforator/matFireballsOnHit.mat
@@ -81,8 +86,9 @@ Assets:
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlameThrowerLemurian.asset
 - Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/SpeedyBeetle.asset
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texCloudOrganic2.png
+- Assets/AssetBundle/Material/RoR2Materials/MagmaWormFireballTrail/texMageBoltMask.png
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian.asset
-- Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_MissileLauncherDef.asset
+- Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_FireballnMissileDef.asset
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_SkillReplacement.asset
 - Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/SpeedyBeetle_OverrideName.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_OverrideName.asset
@@ -90,12 +96,14 @@ Assets:
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/texRampHealingAura.png
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_ToxicHeadbuttDef.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle.asset
+- Assets/AssetBundle/Material/RoR2Materials/MagmaWormFireballTrail/texBehemothTileMask.png
 - Assets/AssetBundle/Shaders/postprocess/hgoutlinehighlight.shader
 - Assets/AssetBundle/Shaders/fx/hgopaquecloudremap.shader
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_VariantConfig.asset
 - Assets/AssetBundle/Material/RoR2Materials/BeetleGland/matBeetleGland.mat
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_VariantExtraComponent.asset
 - Assets/AssetBundle/Shaders/fx/hgforwardplanet.shader
+- Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian.asset
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_VariantConfig.asset
 - Assets/AssetBundle/Shaders/environment/hgwaterfall.shader
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_MaterialReplacement.asset

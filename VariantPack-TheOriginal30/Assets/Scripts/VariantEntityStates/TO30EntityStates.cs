@@ -13,7 +13,7 @@ namespace TheOriginal30.VariantEntityStates
         {
             typeof(Beetle.HeavyHeadbutt),
             typeof(Beetle.ToxicHeadbutt),
-            typeof(Lemurian.LaunchMissile)
+            typeof(Lemurian.ChargeFireballnMissile)
         };
     }
 }

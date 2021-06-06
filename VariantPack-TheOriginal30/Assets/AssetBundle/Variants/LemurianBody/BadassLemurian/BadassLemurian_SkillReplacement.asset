@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BadassLemurian_SkillReplacement
   m_EditorClassIdentifier: 
   skillSlot: 0
-  skillDef: {fileID: 0}
+  skillDef: {fileID: 11400000, guid: faffe5f604461f649ada81167922eb74, type: 2}
