@@ -19,7 +19,7 @@ using Path = System.IO.Path;
 #pragma warning restore CS0618 // Type or member is obsolete
 namespace TheOriginal30
 {
-	[BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "0.0.1")]
+	[BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "0.0.3")]
 	[BepInDependency("com.Nebby.VarianceAPI", BepInDependency.DependencyFlags.HardDependency)]
 	public class MainClass : BaseUnityPlugin
 	{
@@ -43,7 +43,9 @@ namespace TheOriginal30
 		}
         public void Init()
         {
-            var VR = new VariantRegister();
+			var MG = new MaterialGrabber();
+			MG.StartGrabber(theOriginal30Assets);
+			var VR = new VariantRegister();
             VR.RegisterConfigs(theOriginal30Assets, Config);
 			/*foreach (var entityState in TheOriginal30.VariantEntityStates.TO30EntityStates.EntityStates)
             {

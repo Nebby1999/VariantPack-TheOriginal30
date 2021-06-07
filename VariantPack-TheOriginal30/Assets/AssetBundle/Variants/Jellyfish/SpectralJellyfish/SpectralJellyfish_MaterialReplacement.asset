@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: SpectralJellyfish_MaterialReplacement
   m_EditorClassIdentifier: 
   rendererIndex: 0
-  material: {fileID: 2100000, guid: d6ae964c161369440b427ae7a1d8b715, type: 2}
+  material: {fileID: 0}
+  identifier: GhostMaterial

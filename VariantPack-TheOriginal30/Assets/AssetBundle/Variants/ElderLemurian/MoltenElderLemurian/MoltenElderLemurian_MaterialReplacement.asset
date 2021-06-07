@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: MoltenElderLemurian_MaterialReplacement
   m_EditorClassIdentifier: 
   rendererIndex: 0
-  material: {fileID: 2100000, guid: d57d2b74a2616df44b8ff6eaa109b3c4, type: 2}
+  material: {fileID: 0}
+  identifier: FireTrailMaterial

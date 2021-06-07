@@ -49,13 +49,6 @@ While not all Variants from the original mod are here, they **will** eventually 
 	- 600% damage
 	- Larger blast radius, applies Cripple debuff
 
-Unlike the original MonsterVariants, all the Variants from this Variant pack can be made Unique, this means that the Variant will never participate in the VariantOverlapping shenanigans (No more Flamethrower Badass Lemurian)
-
-## Missing Variants
-
-The Following Variants are yet to be implemented.
-
-
 	Spectral Jellyfish (4% chance)
 	- 1 Dio's Best Friend
 	- 50% health
@@ -83,11 +76,18 @@ The Following Variants are yet to be implemented.
 	- 60% attack speed
 	- 200% damage
 
-	Almost-But-Not-Quite-Great Wisp (8% chance)
+	A̶l̶m̶o̶s̶t̶-̶B̶u̶t̶-̶N̶o̶t̶-̶Q̶u̶i̶t̶e̶-̶G̶r̶e̶a̶t̶  Almost-Great Wisp (8% chance)
 	- Fires a single Greater Wisp blast
 	- 110% size
 	- 300% health
 	- 80% movement speed
+
+Unlike the original MonsterVariants, all the Variants from this Variant pack can be made Unique, this means that the Variant will never participate in the VariantOverlapping shenanigans (No more Flamethrower Badass Lemurian)
+
+## Missing Variants
+
+The Following Variants are yet to be implemented.
+
 
 	Greatest Wisp (2% chance)
 	- 120% size
@@ -196,6 +196,28 @@ The Following Variants are yet to be implemented.
     - Mesh Swaps are currently not implemented in VarianceAPI, as such, the Armored Beetle doesnt have it's meshswap.
 
 ## Changelog
+'0.0.3'
+
+- Added back the following Variants:
+
+	* Spectral Jellyfish
+
+	* M.O.A.J.
+
+		- Uses the Suffix "- MOAJ" to accomodate the new VariantOverrideName system.
+
+	* Cursed Jellyfish
+
+	* Infernal Wisp
+
+	* Almost-But-Not-Quite-Great Wisp
+
+		- Now uses the prefix "Almost-Great" to accomodate the new VariantOverrideName.
+
+- Now uses VariantMaterialGrabber to reduce the AssetBundle's file size to 64 kilobites! :O
+
+- Fixed issue in manifest stating wrong version of VarianceAPI.
+
 '0.0.2'
 
 - Added back the following variants:

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: ToxicBeetle_MaterialReplacement
   m_EditorClassIdentifier: 
   rendererIndex: 0
-  material: {fileID: 2100000, guid: 26064d0a2c809044ba8d9d69c99d0037, type: 2}
+  material: {fileID: 0}
+  identifier: GlandMaterial

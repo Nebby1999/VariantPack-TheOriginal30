@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: NuclearJellyfish_MaterialReplacement
   m_EditorClassIdentifier: 
   rendererIndex: 0
-  material: {fileID: 2100000, guid: f857a08ee4b3ce348b981f1e83dcdb9b, type: 2}
+  material: {fileID: 0}
+  identifier: VisionsMaterial

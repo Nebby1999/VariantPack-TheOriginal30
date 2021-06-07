@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: FlamethrowerLemurian_MaterialReplacement
   m_EditorClassIdentifier: 
   rendererIndex: 0
-  material: {fileID: 2100000, guid: 325e6d6554efbe04c9db155c0523ddf2, type: 2}
+  material: {fileID: 0}
+  identifier: PerforatorMaterial

@@ -42,5 +42,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4d52d0ef31f819743840725966545ec6, type: 2}
   sizeModifier: {fileID: 11400000, guid: 36c90b51a35b42843b3687f451bde4cb, type: 2}
   extraComponents: []
-  customDeathState: TheOriginal30.VariantEntityStates.Jellyfish.DeathStates.TestState,  TheOriginal30,
+  customDeathState: TheOriginal30.VariantEntityStates.Jellyfish.DeathStates.SpawnJellies,  TheOriginal30,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
