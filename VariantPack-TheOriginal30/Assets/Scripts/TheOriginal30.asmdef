@@ -11,7 +11,8 @@
         "BepInEx.dll",
         "MMHOOK_Assembly-CSharp.dll",
         "R2API.dll",
-        "VarianceAPI.dll"
+        "VarianceAPI.dll",
+        "HGCSharpUtils.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": []

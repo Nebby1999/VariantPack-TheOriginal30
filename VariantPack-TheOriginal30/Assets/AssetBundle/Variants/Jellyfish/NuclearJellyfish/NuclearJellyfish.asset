@@ -22,7 +22,7 @@ MonoBehaviour:
   aiModifier: 0
   variantTier: 0
   spawnRate: 0
-  givesRewards: 0
+  givesRewards: 1
   customVariantReward: {fileID: 0}
   customInventory: []
   customEquipment: {fileID: 0}
