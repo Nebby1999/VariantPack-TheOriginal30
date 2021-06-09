@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 8
   isUnique: 0
+  configSection: (5) - Lesser Wisp Variants
   identifier: TO30_AlmostGreatWisp
   isModded: 0
   modName: 

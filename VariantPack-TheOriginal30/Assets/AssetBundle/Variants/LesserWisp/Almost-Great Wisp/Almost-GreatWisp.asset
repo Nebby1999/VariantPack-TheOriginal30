@@ -41,6 +41,8 @@ MonoBehaviour:
   materialReplacement:
   - {fileID: 11400000, guid: b4f5c78b629248446bfa7a29484666d9, type: 2}
   - {fileID: 11400000, guid: 922cad48985d3f8488b59d7b351d58ad, type: 2}
+  lightReplacement:
+  - {fileID: 11400000, guid: d345ebf623584d44688fd4db2da06059, type: 2}
   sizeModifier: {fileID: 11400000, guid: abc8ed229d76ed2418000331df1e8d5c, type: 2}
   extraComponents: []
   customDeathState: 

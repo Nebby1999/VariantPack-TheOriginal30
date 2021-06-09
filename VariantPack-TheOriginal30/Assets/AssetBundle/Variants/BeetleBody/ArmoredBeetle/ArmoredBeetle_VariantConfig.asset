@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 10
   isUnique: 0
+  configSection: (1) - Beetle Varants
   identifier: TO30_ArmoredBeetle
   isModded: 0
   modName: 

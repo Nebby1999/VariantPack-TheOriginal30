@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 2
   isUnique: 0
+  configSection: (1) - Beetle Varants
   identifier: TO30_BattleBeetle
   isModded: 0
   modName: 

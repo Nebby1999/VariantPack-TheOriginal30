@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3615619478
+CRC: 2755560290
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b3316059526e2e996beffb913c4a13f8
+    Hash: 702f0f73b6d22e1ebc47a104684fa84f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e0587ad8960e762e5e09f91f3a9e7140
+    Hash: 9ee561703883e07c33a43455d41f5f22
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -16,6 +16,8 @@ ClassTypes:
 - Class: 21
   Script: {instanceID: 0}
 - Class: 23
+  Script: {instanceID: 0}
+- Class: 28
   Script: {instanceID: 0}
 - Class: 33
   Script: {instanceID: 0}
@@ -43,31 +45,54 @@ ClassTypes:
   Script: {fileID: 497398634, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
 - Class: 114
   Script: {fileID: -1868806056, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
+- Class: 114
+  Script: {fileID: 1253592488, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 Assets:
+- Assets/AssetBundle/Variants/ClayTemplar/FuckingTemplar/FuckingTemplar_Hoofs.asset
+- Assets/AssetBundle/Variants/Golem/OverchargedGolem/OverchargedGolem.asset
 - Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_SkillReplacement.asset
+- Assets/AssetBundle/Variants/Scavenger/DreamScavenger/DreamScavenger_UtilityReplacement.asset
+- Assets/AssetBundle/Variants/GreaterWisp/GreatestWisp/GreatestWisp_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Imp/ClottedImp/ClottedImp.asset
+- Assets/AssetBundle/Variants/StoneTitan/ColossalStoneTitan/ColossalStoneTitan_VariantConfig.asset
+- Assets/AssetBundle/Variants/Bison/SpeedyBison/SpeedyBison_OverrideName.asset
+- Assets/AssetBundle/Variants/Imp/ClottedImp/ClottedImp_SizeModifier.asset
+- Assets/AssetBundle/Variants/Scavenger/DreamScavenger/DreamScavenger_LuckySitDef.asset
 - Assets/AssetBundle/Shaders/fx/hgdistortion.shader
+- Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_SizeModifier.asset
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardSharpshooter/BeetleGuardSharpshooter.asset
+- Assets/AssetBundle/Variants/StoneTitan/ColossalStoneTitan/ColossalStoneTitan.asset
 - Assets/AssetBundle/Meshes/meshArmoredBeetle.obj
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ_SizeModifier.asset
 - Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_DunestriderMat.asset
+- Assets/AssetBundle/Variants/ClayTemplar/FuckingTemplar/FuckingTemplar_OverrideName.asset
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardSharpshooter/BeetleGuardSharpshooter_SizeModifier.asset
 - Assets/AssetBundle/Shaders/environment/hgdistantwater.shader
 - Assets/AssetBundle/Shaders/fx/hgsolidparallax.shader
 - Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_VariantConfig.asset
+- Assets/AssetBundle/Variants/StoneTitan/PygmyStoneTitan/PygmyStoneTitan_SizeModifier.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_VariantConfig.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp_SizeModifier.asset
 - Assets/AssetBundle/TheOriginal30Content.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_SkillReplacement.asset
 - Assets/AssetBundle/Variants/Jellyfish/SpectralJellyfish/SpectralJellyfish_OverrideName.asset
 - Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_SizeModifier.asset
+- Assets/AssetBundle/Variants/GreaterWisp/GreatestWisp/GreatestWisp_SizeModifier.asset
 - Assets/AssetBundle/Shaders/ui/hguibarremap.shader
+- Assets/AssetBundle/GunStuff/VulturePistol.prefab
+- Assets/AssetBundle/Variants/Vulture/AlloyDeagle/AlloyDeagle.asset
 - Assets/AssetBundle/Shaders/environment/hggrass.shader
 - Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_SizeModifier.asset
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_OverrideName.asset
 - Assets/AssetBundle/Variants/Jellyfish/SpectralJellyfish/SpectralJellyfish.asset
 - Assets/AssetBundle/Shaders/fx/hgcloudremap.shader
 - Assets/AssetBundle/Shaders/ui/hguiignorez.shader
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardBrute/BeetleGuardBrute_VariantConfig.asset
+- Assets/AssetBundle/Variants/Golem/TitanishGolem/TitanishGolem_SizeModifier.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp.asset
+- Assets/AssetBundle/GunStuff/meshArmoredBeetle.asset
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle_VariantConfig.asset
 - Assets/AssetBundle/Shaders/fx/hgvertexonly.shader
 - Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian_VariantConfig.asset
@@ -75,60 +100,128 @@ Assets:
 - Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle.asset
 - Assets/AssetBundle/Meshes/meshSpeedyBeetle.obj
+- Assets/AssetBundle/Variants/WanderingVagrant/UnstableVagrant_OverrideName.asset
+- Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_LightReplacement.asset
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture.asset
+- Assets/AssetBundle/Variants/GreaterWisp/GreatestWisp/GreatestWisp_MaterialReplacement
+  1.asset
+- Assets/AssetBundle/Variants/Scavenger/DreamScavenger/DreamScavenger_OverrideName.asset
 - Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian_OverrideName.asset
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardBrute/BeetleGuardBrute_OverrideName.asset
+- Assets/AssetBundle/GunStuff/matVulturePistol.mat
+- Assets/AssetBundle/GunStuff/texVultureGun.png
 - Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp.asset
 - Assets/AssetBundle/Variants/Jellyfish/SpectralJellyfish/SpectralJellyfish_SizeModifier.asset
+- Assets/AssetBundle/Variants/Imp/ClottedImp/ClottedImp_Shatterspleen.asset
+- Assets/AssetBundle/Variants/Golem/TitanishGolem/TitanishGolem_OverrideName.asset
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardSharpshooter/BeetleGuardSharpshooter_OverrideName.asset
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_OverrideName.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_OverrideName.asset
+- Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_SkillReplacement.asset
+- Assets/AssetBundle/Variants/ClayTemplar/FuckingTemplar/FuckingTemplar.asset
 - Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_Behemoths.asset
+- Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_Config.asset
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle.asset
 - Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/SpeedyBeetle_VariantConfig.asset
+- Assets/AssetBundle/Variants/Vulture/AlloyDeagle/AlloyDeagle_DoubleTapDef.asset
+- Assets/AssetBundle/Variants/Vulture/AlloyDeagle/AlloyDeagle_OverrideName.asset
 - Assets/AssetBundle/Inventories/HellInventory/RedWhip.asset
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_HeavyHeadbuttDef.asset
+- Assets/AssetBundle/Variants/Golem/FullAutoGolem/FullAutoGolem_OverrideName.asset
 - Assets/AssetBundle/Shaders/postprocess/hgscreendamage.shader
 - Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearNovaDef.asset
 - Assets/AssetBundle/Shaders/ui/hguicustomblend.shader
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture_Missile.asset
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardBrute/BeetleGuardBrute.asset
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlameThrowerLemurian.asset
+- Assets/AssetBundle/Variants/Imp/ClottedImp/ClottedImp_Plus1Crit.asset
 - Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/SpeedyBeetle.asset
+- Assets/AssetBundle/Variants/Imp/ClottedImp/ClottedImp_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Imp/ClottedImp/ClottedImp_OverrideName.asset
+- Assets/AssetBundle/Variants/Vulture/AlloyDeagle/AlloyDeagle_VariantConfig.asset
+- Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_BlinkDef.asset
+- Assets/AssetBundle/Variants/StoneTitan/ColossalStoneTitan/ColossalStoneTitan_OverrideName.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_FireballnMissileDef.asset
+- Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp_LightReplacement.asset
 - Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_LunarFlameMat.asset
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_SkillReplacement.asset
+- Assets/AssetBundle/Variants/Golem/FullAutoGolem/FullAutoGolem.asset
+- Assets/AssetBundle/Variants/GreaterWisp/GreatestWisp/GreatestWisp_OverrideName.asset
 - Assets/AssetBundle/Variants/Jellyfish/CursedJellyfish/CursedJellyfish_OverrideName.asset
 - Assets/AssetBundle/Variants/BeetleBody/SpeedyBeetle/SpeedyBeetle_OverrideName.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp_SkillReplacement.asset
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardSharpshooter/BeetleGuardSharpshooter_VariantConfig.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_OverrideName.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/ChargeGreaterCannon.asset
 - Assets/AssetBundle/Inventories/SpeedInventory/GoatHoof.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_ToxicHeadbuttDef.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp_GreaterWispFlameMat.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle.asset
+- Assets/AssetBundle/Variants/StoneTitan/PygmyStoneTitan/PygmyStoneTitan_VariantConfig.asset
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVutlure_OverrideName.asset
+- Assets/AssetBundle/Variants/WanderingVagrant/UnstableVagrant_VariantConfig.asset
 - Assets/AssetBundle/Variants/Jellyfish/SpectralJellyfish/SpectralJellyfish_VariantConfig.asset
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Scavenger/DreamScavenger/DreamScavenger.asset
+- Assets/AssetBundle/Variants/Golem/TitanishGolem/TitanishGolem_VariantConfig.asset
+- Assets/AssetBundle/GunStuff/meshSpeedyBeetle.asset
+- Assets/AssetBundle/Variants/Bison/AlbinoBison/AlbinoBison_VariantConfig.asset
 - Assets/AssetBundle/Variants/Jellyfish/SpectralJellyfish/SpectralJellyfish_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Golem/FullAutoGolem/FullAutoGolem_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture_MaterialReplacement
+  1.asset
 - Assets/AssetBundle/Shaders/postprocess/hgoutlinehighlight.shader
+- Assets/AssetBundle/Variants/StoneTitan/ColossalStoneTitan/ColossalStoneTitan_VariantSizeModifier.asset
+- Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem.asset
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardBrute/BeetleGuardBrute_SizeModifier.asset
 - Assets/AssetBundle/Shaders/fx/hgopaquecloudremap.shader
 - Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Golem/OverchargedGolem/OverchargedGolem_VariantConfig.asset
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ_VariantConfig.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_VariantConfig.asset
+- Assets/AssetBundle/Variants/Golem/TitanishGolem/TitanishGolem.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_VariantExtraComponent.asset
+- Assets/AssetBundle/Variants/Golem/OverchargedGolem/OverchargedGolem_OverrideName.asset
+- Assets/AssetBundle/Variants/Imp/ClottedImp/ClottedImp_VariantConfig.asset
 - Assets/AssetBundle/Inventories/HellInventory/Crowbar.asset
 - Assets/AssetBundle/Variants/Jellyfish/CursedJellyfish/CursedJellyfish_VariantConfig.asset
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture_SizeModifier.asset
 - Assets/AssetBundle/Shaders/fx/hgforwardplanet.shader
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ_SKillReplacement.asset
 - Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian.asset
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_VariantConfig.asset
+- Assets/AssetBundle/Variants/Golem/FullAutoGolem/FullAutoGolem_VariantConfig.asset
+- Assets/AssetBundle/Variants/ClayTemplar/FuckingTemplar/FuckingTemplar_SizeModifier.asset
+- Assets/AssetBundle/Variants/GreaterWisp/GreatestWisp/GreatestWisp_LightReplacement.asset
 - Assets/AssetBundle/Variants/Jellyfish/CursedJellyfish/CursedJellyfish_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Bison/AlbinoBison/AlbinoBison.asset
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture_VariantConfig.asset
+- Assets/AssetBundle/Variants/Bison/AlbinoBison/AlbinoBison_MaterialReplacement 1.asset
+- Assets/AssetBundle/Variants/ClayTemplar/FuckingTemplar/FuckingTemplar_VariantConfig.asset
+- Assets/AssetBundle/Variants/Vulture/AlloyDeagle/AlloyDeagle_ExtraComponent.asset
+- Assets/AssetBundle/Variants/Bison/AlbinoBison/AlbinoBison_SizeModifier.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp_GreaterWispMat.asset
 - Assets/AssetBundle/Shaders/environment/hgwaterfall.shader
+- Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_OverrideName.asset
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ_OverrideName.asset
+- Assets/AssetBundle/Variants/StoneTitan/PygmyStoneTitan/PygmyStoneTitan_OverrideName.asset
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ.asset
 - Assets/AssetBundle/Variants/BeetleBody/BattleBeetle/BattleBeetle_VariantConfig.asset
+- Assets/AssetBundle/Variants/Bison/SpeedyBison/SpeedyBison_VariantConfig.asset
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ_SpawnNovaDef.asset
 - Assets/AssetBundle/Shaders/deferred/hgsnowtopped.shader
 - Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_VariantConfig.asset
+- Assets/AssetBundle/GunStuff/MeshHenryGun.asset
 - Assets/AssetBundle/Shaders/postprocess/hgsobelbuffer.shader
+- Assets/AssetBundle/Variants/StoneTitan/PygmyStoneTitan/PygmyStoneTitan.asset
+- Assets/AssetBundle/Variants/ClayTemplar/FuckingTemplar/FuckingTemplar_Syringes.asset
+- Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_LightReplacement.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp_VariantConfig.asset
+- Assets/AssetBundle/Variants/GreaterWisp/GreatestWisp/GreatestWisp_Inventory.asset
+- Assets/AssetBundle/Variants/GreaterWisp/GreatestWisp/GreatestWisp.asset
 - Assets/AssetBundle/Shaders/ui/hguioverbrighten.shader
 - Assets/AssetBundle/Shaders/fx/hgintersectioncloudremap.shader
 - Assets/AssetBundle/Shaders/ui/hguiblur.shader
@@ -137,19 +230,33 @@ Assets:
 - Assets/AssetBundle/Shaders/deferred/hgtriplanarterrainblend.shader
 - Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish.asset
 - Assets/AssetBundle/Shaders/fx/hgdamagenumber.shader
-- Assets/AssetBundle/Inventories/RapidFireInventory/BackupMagazine.asset
+- Assets/AssetBundle/Inventories/RapidFireInventory/ExtraSecondary.asset
+- Assets/AssetBundle/Variants/WanderingVagrant/UnstableVagrant.asset
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture_Clover.asset
 - Assets/AssetBundle/Variants/Jellyfish/SpectralJellyfish/SpectralJellyfish_Inventory.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp_OverrideName.asset
-- Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_CritGlasses.asset
+- Assets/AssetBundle/Variants/Golem/OverchargedGolem/OverchargedGolem_ShieldOnly.asset
+- Assets/AssetBundle/Variants/Scavenger/DreamScavenger/DreamScavenger_VariantConfig.asset
+- Assets/AssetBundle/Variants/Imp/ClottedImp/ClottedImp_ExtraUtility.asset
+- Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_Plus1Crit.asset
+- Assets/AssetBundle/Variants/GreaterWisp/GreatestWisp/GreatestWisp_VariantConfig.asset
+- Assets/AssetBundle/Variants/Golem/FullAutoGolem/FullAutoGolem_LightReplacement.asset
+- Assets/AssetBundle/Variants/Bison/SpeedyBison/SpeedyBison.asset
+- Assets/AssetBundle/Variants/Vulture/AlloyDeagle/AlloyDeagle_SkillReplacement.asset
+- Assets/AssetBundle/Variants/StoneTitan/ColossalStoneTitan/ColossalStoneTitan_GlobalCDR.asset
 - Assets/AssetBundle/Variants/LemurianBody/BadassLemurian/BadassLemurian_SkillReplacement.asset
-- Assets/AssetBundle/Inventories/RapidFireInventory/AlienHeads.asset
+- Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture_Behemoth.asset
+- Assets/AssetBundle/Inventories/RapidFireInventory/GlobalCDR.asset
 - Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_OverrideName.asset
 - Assets/AssetBundle/Variants/Jellyfish/NuclearJellyfish/NuclearJellyfish_OverrideName.asset
 - Assets/AssetBundle/Inventories/HellInventory/RunaldsBands.asset
 - Assets/AssetBundle/Shaders/deferred/hgstandard.shader
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle_OverrideName.asset
+- Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardSharpshooter/BeetleGuardSharpshooter_Inventory.asset
+- Assets/AssetBundle/Variants/Bison/AlbinoBison/AlbinoBison_MaterialReplacement.asset
 - Assets/AssetBundle/Shaders/ui/hguianimatealpha.shader
+- Assets/AssetBundle/Variants/Bison/AlbinoBison/AlbinoBison_OverrideName.asset
 - Assets/AssetBundle/Shaders/postprocess/hgscopeshader.shader
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ_MaterialReplacement.asset
 Dependencies: []

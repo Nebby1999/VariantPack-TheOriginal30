@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 5
   isUnique: 0
+  configSection: (4) - Jellyfish Variants
   identifier: TO30_NuclearJellyfish
   isModded: 0
   modName: 

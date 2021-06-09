@@ -20,6 +20,11 @@ namespace TheOriginal30
         public Material lunarFlameMat;
         public Material greaterWispMat;
         public Material greaterWispFlameMat;
+        public Material wispFlameMat;
+        public Material lunarGolemMat;
+        public Material titanGoldMat;
+        public Material skeletalMat;
+        public Material shatterspleenMat;
 
         public void StartGrabber(AssetBundle assets)
         {
@@ -64,12 +69,30 @@ namespace TheOriginal30
             CreateVMR(lunarFlameMat, "LunarFlameMaterial");
 
             //Greater Wisp Body Material
-            greaterWispMat = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/CharacterBodies/GreaterWispBody").GetComponentInChildren<CharacterModel>().baseRendererInfos[1].defaultMaterial);
+            greaterWispMat = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/CharacterBodies/GreaterWispBody").GetComponentInChildren<CharacterModel>().baseRendererInfos[0].defaultMaterial);
             CreateVMR(greaterWispMat, "GreaterWispMaterial");
 
             //Greater Wisp Flame Material
-            greaterWispFlameMat = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/CharacterBodies/GreaterWispBody").GetComponentInChildren<CharacterModel>().baseRendererInfos[0].defaultMaterial);
+            greaterWispFlameMat = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/CharacterBodies/GreaterWispBody").GetComponentInChildren<CharacterModel>().baseRendererInfos[1].defaultMaterial);
             CreateVMR(greaterWispFlameMat, "GreaterWispFlameMaterial");
+
+            //Wisp Flame Material
+            wispFlameMat = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/CharacterBodies/WispBody").GetComponentInChildren<CharacterModel>().baseRendererInfos[1].defaultMaterial);
+            CreateVMR(wispFlameMat, "LesserWispFlameMaterial");
+
+            //Lunar Golem Chimera Material
+            lunarGolemMat = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/CharacterBodies/LunarGolemBody").GetComponentInChildren<CharacterModel>().baseRendererInfos[0].defaultMaterial);
+            CreateVMR(lunarGolemMat, "LunarGolemMaterial");
+
+            //Aurelionite Material
+            titanGoldMat = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/CharacterBodies/TitanGoldBody").GetComponentInChildren<CharacterModel>().baseRendererInfos[19].defaultMaterial);
+            CreateVMR(titanGoldMat, "AurelioniteMaterial");
+
+            skeletalMat = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/Effects/BrotherDashEffect").transform.Find("Donut").GetComponent<ParticleSystemRenderer>().material);
+            CreateVMR(skeletalMat, "SkeletalMaterial");
+
+            shatterspleenMat = UnityEngine.Object.Instantiate(IDRS.FindDisplayRuleGroup(RoR2Content.Items.BleedOnHitAndExplode).rules[0].followerPrefab.GetComponentInChildren<MeshRenderer>().material);
+            CreateVMR(shatterspleenMat, "ShatterspleenMaterial");
         }
         public void CreateVMR(Material material, string identifier)
         {

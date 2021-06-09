@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 2
   isUnique: 0
+  configSection: (2) - Lemurian Variants
   identifier: TO30_FlameThrowerLemurian
   isModded: 0
   modName: 
