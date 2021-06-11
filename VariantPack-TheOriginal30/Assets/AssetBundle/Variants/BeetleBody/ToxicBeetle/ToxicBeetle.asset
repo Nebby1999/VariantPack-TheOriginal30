@@ -31,13 +31,16 @@ MonoBehaviour:
   skillReplacement:
   - {fileID: 11400000, guid: 2df5d442d0ccbff449f2969fbd99239d, type: 2}
   healthMultiplier: 1
-  moveSpeedMultiplier: 1
+  moveSpeedMultiplier: 0.9
   attackSpeedMultiplier: 1
-  damageMultiplier: 1
+  damageMultiplier: 0.5
   armorMultiplier: 1
   armorBonus: 0
   arrivalMessage: 
   meshReplacement: []
   materialReplacement:
   - {fileID: 11400000, guid: f2b853ed5bca1cf4c977184970cbf529, type: 2}
+  lightReplacement: []
   sizeModifier: {fileID: 0}
+  extraComponents: []
+  customDeathState: 

@@ -11,6 +11,7 @@ using System.IO;
 using RoR2.ContentManagement;
 using EntityStates;
 using RoR2;
+using BepInEx.Configuration;
 using Path = System.IO.Path;
 
 [module: UnverifiableCode]
@@ -26,12 +27,14 @@ namespace TheOriginal30
 		public static MainClass instance;
 		public static AssetBundle theOriginal30Assets = null;
 		internal static string assetBundleName = "TheOriginal30Assets";
+		internal static ConfigEntry<bool> enableFaithfulness;
 
 		internal static GameObject missileLauncherDisplayPrefab; // gotta cache this for lemurians
 
 		public void Awake()
         {
             instance = this;
+			enableFaithfulness = Config.Bind<bool>(new ConfigDefinition("(1) - The Original 30 Settings", "Enable Faithful Variants"), false, new ConfigDescription("When this is set to true, all the Variants from TheOriginal30 will use the exact original stats of MonsterVariants."));
 			GrabMaterials();
             LoadAssetsAndRegisterContentPack();
             Init();
@@ -45,6 +48,7 @@ namespace TheOriginal30
         {
 			var MG = new MaterialGrabber();
 			MG.StartGrabber(theOriginal30Assets);
+			FaithfulVariants.Init();
 			var VR = new VariantRegister();
             VR.RegisterConfigs(theOriginal30Assets, Config);
 			/*foreach (var entityState in TheOriginal30.VariantEntityStates.TO30EntityStates.EntityStates)
