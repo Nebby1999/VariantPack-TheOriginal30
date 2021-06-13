@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 497398634, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
   m_Name: ColossalStoneTitan_VariantSizeModifier
   m_EditorClassIdentifier: 
-  newSize: 0
+  newSize: 3
   scaleCollider: 0
