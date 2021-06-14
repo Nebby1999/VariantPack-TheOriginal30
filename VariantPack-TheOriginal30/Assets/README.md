@@ -224,6 +224,14 @@ Unlike the original MonsterVariants, all the Variants from this Variant pack can
     - Mesh Swaps are currently not implemented in VarianceAPI, as such, the Armored Beetle doesnt have its meshswap.
 
 ## Changelog
+'1.1.2'
+
+- Internal Changes to the Code.
+
+- Fixed Stone Titan Colossus being stupidly small.
+
+- Updated to use VarianceAPI 0.7.0
+
 '1.1.1'
 
 - Fixed a null ref exception that caused the mod to not load.
