@@ -20,7 +20,7 @@ using Path = System.IO.Path;
 #pragma warning restore CS0618 // Type or member is obsolete
 namespace TheOriginal30
 {
-	[BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "0.0.3")]
+	[BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "1.1.4")]
 	[BepInDependency("com.Nebby.VarianceAPI", BepInDependency.DependencyFlags.HardDependency)]
 	public class MainClass : BaseUnityPlugin
 	{
@@ -32,38 +32,27 @@ namespace TheOriginal30
 		internal static GameObject missileLauncherDisplayPrefab; // gotta cache this for lemurians
 
 		public void Awake()
-        {
-            instance = this;
+		{
 			enableFaithfulness = Config.Bind<bool>(new ConfigDefinition("(1) - The Original 30 Settings", "Enable Faithful Variants"), false, new ConfigDescription("When this is set to true, all the Variants from TheOriginal30 will use the exact original stats of MonsterVariants."));
+			instance = this;
 			GrabMaterials();
-            LoadAssetsAndRegisterContentPack();
-            Init();
-        }
+			LoadAssets();
+			FixMaterials();
+			RegisterContentPack();
+			GrabVanillaMaterials();
+			CheckForFaithfulness();
+			RegisterVariants();
+		}
 		private void GrabMaterials()
-        {
+		{
 			ItemDisplayRuleSet IDRS = Resources.Load<GameObject>("Prefabs/CharacterBodies/CommandoBody").GetComponent<ModelLocator>().modelTransform.GetComponent<CharacterModel>().itemDisplayRuleSet;
 			missileLauncherDisplayPrefab = IDRS.FindDisplayRuleGroup(RoR2Content.Equipment.CommandMissile).rules[0].followerPrefab;
 		}
-        public void Init()
-        {
-			var MG = new MaterialGrabber();
-			MG.StartGrabber(theOriginal30Assets);
-			FaithfulVariants.Init();
-			var VR = new VariantRegister();
-            VR.RegisterConfigs(theOriginal30Assets, Config);
-			/*foreach (var entityState in TheOriginal30.VariantEntityStates.TO30EntityStates.EntityStates)
-            {
-				var state = new SerializableEntityStateType(typeof(VariantEntityStates.Beetle.ToxicHeadbutt));
-				Debug.Log(state.typeName);
-            }*/
-        }
-        public void LoadAssetsAndRegisterContentPack()
-        {
-            var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            theOriginal30Assets = AssetBundle.LoadFromFile(Path.Combine(path, assetBundleName));
-			FixMaterials();
-            ContentPackProvider.serializedContentPack = theOriginal30Assets.LoadAsset<SerializableContentPack>(ContentPackProvider.contentPackName);
-        }
+		private void LoadAssets()
+		{
+			var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+			theOriginal30Assets = AssetBundle.LoadFromFile(Path.Combine(path, assetBundleName));
+		}
 		private void FixMaterials()
         {
 			var Materials = theOriginal30Assets.LoadAllAssets<Material>();
@@ -74,6 +63,25 @@ namespace TheOriginal30
 					material.shader = Resources.Load<Shader>("shaders" + material.shader.name.Substring(13));
                 }
             }
+        }
+        public void RegisterContentPack()
+        {
+            ContentPackProvider.serializedContentPack = theOriginal30Assets.LoadAsset<SerializableContentPack>(ContentPackProvider.contentPackName);
+			ContentPackProvider.Initialize();
+        }
+		public void GrabVanillaMaterials()
+        {
+			var MG = new MaterialGrabber();
+			MG.StartGrabber(theOriginal30Assets);
+        }
+		public void CheckForFaithfulness()
+        {
+			FaithfulVariants.Init();
+        }
+		public void RegisterVariants()
+        {
+			var VR = new VariantRegister();
+			VR.RegisterConfigs(theOriginal30Assets, Config);
         }
     }
 	public class ContentPackProvider : IContentPackProvider

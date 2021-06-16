@@ -24,10 +24,9 @@ MonoBehaviour:
   spawnRate: 0
   givesRewards: 1
   customVariantReward: {fileID: 0}
-  customInventory:
-  - {fileID: 11400000, guid: 1eb21ee724da4bf4083088976be036af, type: 2}
+  customInventory: []
+  variantInventory: {fileID: 11400000, guid: 90459dc24045a464e9980fed6678ba1e, type: 2}
   customEquipment: {fileID: 0}
-  usesEquipment: 0
   buff: []
   skillReplacement: []
   healthMultiplier: 1
@@ -39,4 +38,7 @@ MonoBehaviour:
   arrivalMessage: 
   meshReplacement: []
   materialReplacement: []
+  lightReplacement: []
   sizeModifier: {fileID: 0}
+  extraComponents: []
+  customDeathState: 

@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1230585875, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
-  m_Name: RedWhip
+  m_Script: {fileID: 2119437388, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
+  m_Name: HellInventory
   m_EditorClassIdentifier: 
-  itemString: SprintOufOfCombat
-  count: 3
+  itemStrings:
+  - IceRing
+  - SprintOutOfCombat
+  - Crowbar
+  counts: 020000000300000001000000

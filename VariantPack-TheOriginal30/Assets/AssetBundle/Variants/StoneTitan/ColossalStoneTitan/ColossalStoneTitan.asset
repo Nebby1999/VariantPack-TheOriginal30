@@ -24,14 +24,13 @@ MonoBehaviour:
   spawnRate: 0
   givesRewards: 1
   customVariantReward: {fileID: 0}
-  customInventory:
-  - {fileID: 11400000, guid: c7f7fdde24baa3847b1408fc72660840, type: 2}
+  customInventory: []
+  variantInventory: {fileID: 11400000, guid: 2225799d736153a4baeeb264dc6433c1, type: 2}
   customEquipment: {fileID: 0}
-  usesEquipment: 0
   buff: []
   skillReplacement: []
   healthMultiplier: 3
-  moveSpeedMultiplier: 50
+  moveSpeedMultiplier: 0.5
   attackSpeedMultiplier: 1
   damageMultiplier: 2
   armorMultiplier: 1

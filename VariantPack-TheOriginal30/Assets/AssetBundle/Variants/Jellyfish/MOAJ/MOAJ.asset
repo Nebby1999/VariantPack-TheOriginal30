@@ -25,8 +25,8 @@ MonoBehaviour:
   givesRewards: 1
   customVariantReward: {fileID: 0}
   customInventory: []
+  variantInventory: {fileID: 0}
   customEquipment: {fileID: 0}
-  usesEquipment: 0
   buff: []
   skillReplacement:
   - {fileID: 11400000, guid: e57dde8a953d43048825fd75147af96e, type: 2}
@@ -40,7 +40,8 @@ MonoBehaviour:
   meshReplacement: []
   materialReplacement:
   - {fileID: 11400000, guid: 4d52d0ef31f819743840725966545ec6, type: 2}
+  lightReplacement: []
   sizeModifier: {fileID: 11400000, guid: 36c90b51a35b42843b3687f451bde4cb, type: 2}
   extraComponents: []
-  customDeathState: TheOriginal30.VariantEntityStates.Jellyfish.DeathStates.SpawnJellies,  TheOriginal30,
+  customDeathState: ken=nullnal30.VariantEntityStates.Jellyfish.DeathStates.SpawnJellies,  TheOriginal30,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

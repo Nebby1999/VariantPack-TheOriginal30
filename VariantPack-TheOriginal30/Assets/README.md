@@ -224,6 +224,22 @@ Unlike the original MonsterVariants, all the Variants from this Variant pack can
     - Mesh Swaps are currently not implemented in VarianceAPI, as such, the Armored Beetle doesnt have its meshswap.
 
 ## Changelog
+'1.1.5'
+
+- Fixed the stone colossus having a movement speed multiplier of 50 instead of 0.5
+
+- Updated to use VarianceAPI 0.8.0
+
+'1.1.4'
+
+- Hopefully fixed a strange bug that caused the game to not load the mod.
+
+'1.1.3'
+
+- Updated to use VarianceAPI 0.7.1
+
+- Fixed the mod never registering the variants, lol
+
 '1.1.2'
 
 - Internal Changes to the Code.
