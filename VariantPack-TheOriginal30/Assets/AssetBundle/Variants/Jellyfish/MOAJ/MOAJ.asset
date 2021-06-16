@@ -24,7 +24,6 @@ MonoBehaviour:
   spawnRate: 0
   givesRewards: 1
   customVariantReward: {fileID: 0}
-  customInventory: []
   variantInventory: {fileID: 0}
   customEquipment: {fileID: 0}
   buff: []
@@ -43,5 +42,5 @@ MonoBehaviour:
   lightReplacement: []
   sizeModifier: {fileID: 11400000, guid: 36c90b51a35b42843b3687f451bde4cb, type: 2}
   extraComponents: []
-  customDeathState: ken=nullnal30.VariantEntityStates.Jellyfish.DeathStates.SpawnJellies,  TheOriginal30,
+  customDeathState: TheOriginal30.VariantEntityStates.Jellyfish.DeathStates.SpawnJellies,  TheOriginal30,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

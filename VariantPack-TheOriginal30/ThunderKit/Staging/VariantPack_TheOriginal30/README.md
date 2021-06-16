@@ -219,11 +219,31 @@
 
 Unlike the original MonsterVariants, all the Variants from this Variant pack can be made Unique, this means that the Variant will never participate in the VariantOverlapping shenanigans (No more Flamethrower Badass Lemurian)
 
+## Pictures
+
+![](https://cdn.discordapp.com/attachments/850538397647110145/854536090782007316/unknown.png)
+![](https://cdn.discordapp.com/attachments/850538397647110145/854536117864235038/unknown.png)
+![](https://cdn.discordapp.com/attachments/850538397647110145/854536133832605716/unknown.png)
+![](https://cdn.discordapp.com/attachments/850538397647110145/854536148936425492/unknown.png)
+![](https://cdn.discordapp.com/attachments/850538397647110145/854536180148994078/unknown.png)
+![](https://cdn.discordapp.com/attachments/850538397647110145/854536180148994078/unknown.png)
+![](https://cdn.discordapp.com/attachments/850538397647110145/854536207945564190/unknown.png)
+
 ## Known Issues
 
     - Mesh Swaps are currently not implemented in VarianceAPI, as such, the Armored Beetle doesnt have its meshswap.
 
 ## Changelog
+'1.1.5'
+
+- Fixed the stone colossus having a movement speed multiplier of 50 instead of 0.5
+
+- Updated to use VarianceAPI 0.8.0
+
+- Added back rob's original images
+
+- Fixed the MOAJ having a bad DeathState type.
+
 '1.1.4'
 
 - Hopefully fixed a strange bug that caused the game to not load the mod.
