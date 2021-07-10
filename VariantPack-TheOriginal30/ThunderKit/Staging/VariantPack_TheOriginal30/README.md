@@ -16,45 +16,53 @@
 
 
 	    Armored Beetle (10% chance)
+		- Tier: Common
 	    - Prefix: Armored
 	    - 150% size
 	    - 300% health
 	    - +20 armor
 
     	Speedy Beetle (30% chance)
+		- Tier: Common
     	- Prefix: Speedy
     	- 170% movement speed
 
     	Toxic Beetle (2% chance)
+		- Tier: Rare
     	- Prefix: Toxic
         - 90% Movement Speed
         - 50% Damage
     	- Explodes into a pool of poisonous acid
 
 	    Battle Beetle (2% chance)
+		- Tier: Common
 	    - Prefix: Battle
 	    - 200% damage
     	- Extreme knockback
 
     	Flamethrower Lemurian (2% chance)
+		- Tier: Rare
     	- Prefix: Flamethrower
     	- 3000% attack speed
     	- 60% damage
 
     	Badass Lemurian (2% chance)
+		- Tier: Common
     	- Prefix: Badass
     	- Has a missile launcher
 
     	Molten Elder Lemurian (2% chance)
+		- Tier: Uncommon
     	- Prefix: Molten
     	- 120% size
     	- 80% health
     	- 50% movement speed
     	- 80% attack speed
     	- 120% damage
-    	- +500 armor
+    	- +300 armor
 
     	Nuclear Jellyfish (1% chance)
+		- Tier: Common
     	- Prefix: Nuclear
     	- 75% movement speed
     	- 200% size
@@ -64,6 +72,7 @@
     	- Larger blast radius, applies Cripple debuff
 
     	Spectral Jellyfish (4% chance)
+		- Tier: Rare
     	- Prefix: Spectral
     	- 1 Dio's Best Friend
     	- 50% health
@@ -71,6 +80,7 @@
     	- 50% damage
 
     	M.O.A.J (2% chance)
+		- Tier: Rare
     	- Suffix: - MOAJ
     	- 400% size
     	- 4000% health
@@ -79,6 +89,7 @@
     	- Spawns 5 Jellyfish on death
 
     	Cursed Jellyfish (1% chance)
+		- Tier: Rare
     	- Prefix: Cursed
     	- 3 Red Whips
     	- 2 Runald's Bands
@@ -87,6 +98,7 @@
     	- 150% attack speed
 
     	Infernal Lesser Wisp (2% chance)
+		- Tier: Rare
     	- Prefix: Infernal
     	- 3 Brilliant Behemoths
     	- 100% crit
@@ -95,6 +107,7 @@
     	- 200% damage
 
     	Almost-Great Lesser Wisp (8% chance)
+		- Tier: Uncommon
     	- Prefix: Almost-Great
     	- Fires a single Greater Wisp blast
     	- 110% size
@@ -102,6 +115,7 @@
     	- 80% movement speed
 
     	Greatest Wisp (2% chance)
+		- Tier: Rare
     	- Prefix: Greatest
     	- 120% size
     	- 200% health
@@ -109,12 +123,14 @@
     	- 200% attack speed
 
     	Full-Auto Golem (4% chance)
+		- Tier: Rare
     	- Prefix: Full-Auto
     	- 700% attack speed
     	- 75% damage
     	- -30 armor
 
     	Titan-ish Golem (2% chance)
+		- Tier: Uncommon
     	- Prefix: Titan-ish
     	- 250% size
     	- 400% health
@@ -122,6 +138,7 @@
     	- 300% damage
 
     	Overcharged Golem (2% chance)
+		- Tier: Common
     	- Prefix: Overcharged
     	- All health is converted to shields
     	- 800% damage
@@ -129,6 +146,7 @@
     	- 200% attack speed
 
     	Rush Golem (2% chance)
+		- Tier: Rare
     	- Prefix: Rush
     	- Laser is replaced with a teleport
     	- 60% size
@@ -139,10 +157,12 @@
     	- +100 armor
 
     	Speedy Bison (30% chance)
+		- Tier: Common
     	- Prefix: Speedy
     	- 400% movement speed
 
     	Albino Bison (4% chance)
+		- Tier: Common
     	- Prefix: Albino
     	- 125% size
     	- 200% health
@@ -150,6 +170,7 @@
     	- +50 armor
 
     	Beetle Guard Brute (25% chance)
+		- Tier: Uncommon
     	- Suffix: Brute
     	- 110% size
     	- 200% health
@@ -159,6 +180,7 @@
     	- +10 armor
 
     	Beetle Guard Sharpshooter (2% chance)
+		- Tier: Common
     	- Suffix: Sharpshooter
     	- 80% size
     	- 80% health
@@ -168,6 +190,7 @@
     	- 10 Alien Heads
 
     	Clotted Imp (5% chance) - by Syme
+		- Tier: Uncommon
     	- Prefix: Clotted
     	- 80% size
     	- 80% health
@@ -176,6 +199,7 @@
     	- 1 Shatterspleen
 
     	Artillery Vulture (3% chance) - by Syme
+		- Tier: Uncommon
     	- Prefix: Artillery
     	- 125% size
     	- 400% attack speed
@@ -186,16 +210,19 @@
     	- 3 Brilliant Behemoths
 
 	    Alloy Deagle (2% chance)
+		- Tier: Rare
 	    - Suffix: With a Fucking Gun.
 	    - Has a gun
 
     	Fucking Templar (4% chance)
+		- Tier: Uncommon
 	    - Prefix: Fucking
 	    - 120% size
 	    - A lot of attack speed
     	- A lot of movement speed
 
     	Colossal Titan (2% chance)
+		- Tier: Rare
     	- Prefix: Colossal
     	- 300% size
     	- 300% health
@@ -204,16 +231,19 @@
     	- +50 armor
 
     	Pygmy Titan (2% chance)
+		- Tier: Common
     	- Prefix: Pygmy
     	- 30% size
     	- 500% movement speed
 
     	Unstable Vagrant (2% chance)
+		- Tier: Common
     	- Prefix: Unstable
     	- Can use its nova at any time
     	- -50 armor
 
     	Dream Scavenger (10% chance)
+		- Tier: Common
     	- Prefix: Dream
     	- Only picks up red items
 
@@ -234,6 +264,26 @@ Unlike the original MonsterVariants, all the Variants from this Variant pack can
     - Mesh Swaps are currently not implemented in VarianceAPI, as such, the Armored Beetle doesnt have its meshswap.
 
 ## Changelog
+'1.1.7'
+
+- Added 100 armor points to the molten elder lemurian
+
+- Variants now have their tier listed.
+
+- Fixed Clotted Imp not spawning.
+
+- Fixed the Fucking Templar having a bad spawn rate (it was 0)
+
+- Killing a MOAJ now gives the jellyfish spawned by it a 1 second immunity, to prevent cheesing with Will o the Wisp
+
+'1.1.6'
+
+- fixed the MOAJ having a bad deathstate type (again)
+
+- Reduced Molten Elder Lemurian's Armor bonus to 200
+
+- Removed faithfull variants feature
+
 '1.1.5'
 
 - Fixed the stone colossus having a movement speed multiplier of 50 instead of 0.5
