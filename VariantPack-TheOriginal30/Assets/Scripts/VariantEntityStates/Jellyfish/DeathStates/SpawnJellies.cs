@@ -12,7 +12,7 @@ using VarianceAPI.Components;
 
 namespace TheOriginal30.VariantEntityStates.Jellyfish.DeathStates
 {
-    public class TestState : GenericCharacterDeath
+    public class SpawnJellies : GenericCharacterDeath
     {
 		public static GameObject enterEffectPrefab;
 		public static int jellies;
@@ -42,8 +42,11 @@ namespace TheOriginal30.VariantEntityStates.Jellyfish.DeathStates
 					GameObject jelly = DirectorCore.instance.TrySpawnObject(directorSpawnRequest);
 					if (jelly)
 					{
-						CharacterMaster master = jelly.GetComponent<CharacterMaster>();
-						jelly.GetComponent<Inventory>().SetEquipmentIndex(base.characterBody.inventory.currentEquipmentIndex);
+
+						Inventory inventory = jelly.GetComponent<Inventory>();
+						inventory.SetEquipmentIndex(base.characterBody.inventory.currentEquipmentIndex);
+						CharacterBody body = inventory.GetComponentInParent<CharacterMaster>().GetBody();
+						body.AddTimedBuff(RoR2Content.Buffs.Immune, 1);
 					}
 				}
 				DestroyBodyAsapServer();

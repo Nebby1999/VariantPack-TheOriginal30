@@ -27,20 +27,17 @@ namespace TheOriginal30
 		public static MainClass instance;
 		public static AssetBundle theOriginal30Assets = null;
 		internal static string assetBundleName = "TheOriginal30Assets";
-		internal static ConfigEntry<bool> enableFaithfulness;
 
 		internal static GameObject missileLauncherDisplayPrefab; // gotta cache this for lemurians
 
 		public void Awake()
 		{
-			enableFaithfulness = Config.Bind<bool>(new ConfigDefinition("(1) - The Original 30 Settings", "Enable Faithful Variants"), false, new ConfigDescription("When this is set to true, all the Variants from TheOriginal30 will use the exact original stats of MonsterVariants."));
 			instance = this;
 			GrabMaterials();
 			LoadAssets();
 			FixMaterials();
 			RegisterContentPack();
 			GrabVanillaMaterials();
-			CheckForFaithfulness();
 			RegisterVariants();
 		}
 		private void GrabMaterials()
@@ -73,10 +70,6 @@ namespace TheOriginal30
         {
 			var MG = new MaterialGrabber();
 			MG.StartGrabber(theOriginal30Assets);
-        }
-		public void CheckForFaithfulness()
-        {
-			FaithfulVariants.Init();
         }
 		public void RegisterVariants()
         {
