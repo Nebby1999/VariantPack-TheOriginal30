@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3620143111
+CRC: 1838443304
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1393d2e75aef295ae5804af4c1f2e22e
+    Hash: f26324df0d03a6635e6b5ddbc6381d5c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 76f3e06dac17df09f056d7c9ba0a484f
+    Hash: 16b066c4d51ac7b2063faeb8a482ddbc
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -65,7 +65,6 @@ Assets:
 - Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_SizeModifier.asset
 - Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardSharpshooter/BeetleGuardSharpshooter.asset
 - Assets/AssetBundle/Variants/StoneTitan/ColossalStoneTitan/ColossalStoneTitan.asset
-- Assets/AssetBundle/Meshes/meshArmoredBeetle.obj
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ_SizeModifier.asset
 - Assets/AssetBundle/Variants/LesserWisp/InfernalWisp/InfernalWisp_DunestriderMat.asset
 - Assets/AssetBundle/Variants/ClayTemplar/FuckingTemplar/FuckingTemplar_OverrideName.asset
@@ -95,7 +94,6 @@ Assets:
 - Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardBrute/BeetleGuardBrute_VariantConfig.asset
 - Assets/AssetBundle/Variants/Golem/TitanishGolem/TitanishGolem_SizeModifier.asset
 - Assets/AssetBundle/Variants/LesserWisp/Almost-Great Wisp/Almost-GreatWisp.asset
-- Assets/AssetBundle/GunStuff/meshArmoredBeetle.asset
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle_VariantConfig.asset
 - Assets/AssetBundle/Shaders/fx/hgvertexonly.shader
 - Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian_VariantConfig.asset
@@ -103,7 +101,6 @@ Assets:
 - Assets/AssetBundle/Variants/ElderLemurian/MoltenElderLemurian/MoltenElderLemurian_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/BeetleGuard/BeetleGuardSharpshooter/BeetleGuardSharpshooter_Inventory.asset
 - Assets/AssetBundle/Variants/BeetleBody/ArmoredBeetle/ArmoredBeetle.asset
-- Assets/AssetBundle/Meshes/meshSpeedyBeetle.obj
 - Assets/AssetBundle/Variants/WanderingVagrant/UnstableVagrant_OverrideName.asset
 - Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_LightReplacement.asset
 - Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture.asset
@@ -160,14 +157,12 @@ Assets:
 - Assets/AssetBundle/Variants/BeetleBody/ToxicBeetle/ToxicBeetle.asset
 - Assets/AssetBundle/Variants/StoneTitan/PygmyStoneTitan/PygmyStoneTitan_VariantConfig.asset
 - Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVutlure_OverrideName.asset
-- Assets/AssetBundle/Meshes/LemurianMesh.mesh
 - Assets/AssetBundle/Variants/WanderingVagrant/UnstableVagrant_VariantConfig.asset
 - Assets/AssetBundle/Variants/Jellyfish/SpectralJellyfish/SpectralJellyfish_VariantConfig.asset
 - Assets/AssetBundle/Variants/Vulture/ArtilleryVulture/ArtilleryVulture_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/Scavenger/DreamScavenger/DreamScavenger.asset
 - Assets/AssetBundle/Variants/Golem/TitanishGolem/TitanishGolem_VariantConfig.asset
-- Assets/AssetBundle/GunStuff/meshSpeedyBeetle.asset
-- Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/sus.asset
+- Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_MeshReplacement.asset
 - Assets/AssetBundle/Variants/Bison/AlbinoBison/AlbinoBison_VariantConfig.asset
 - Assets/AssetBundle/Variants/Jellyfish/SpectralJellyfish/SpectralJellyfish_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/Golem/FullAutoGolem/FullAutoGolem_MaterialReplacement.asset
@@ -206,6 +201,7 @@ Assets:
 - Assets/AssetBundle/Shaders/environment/hgwaterfall.shader
 - Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_MaterialReplacement.asset
 - Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_MaterialReplacement.asset
+- Assets/AssetBundle/Variants/LemurianBody/FlameThrowerLemurian/FlamethrowerLemurian_Mesh.mesh
 - Assets/AssetBundle/Variants/Golem/RushGolem/RushGolem_OverrideName.asset
 - Assets/AssetBundle/Variants/Jellyfish/MOAJ/MOAJ_OverrideName.asset
 - Assets/AssetBundle/Variants/StoneTitan/PygmyStoneTitan/PygmyStoneTitan_OverrideName.asset

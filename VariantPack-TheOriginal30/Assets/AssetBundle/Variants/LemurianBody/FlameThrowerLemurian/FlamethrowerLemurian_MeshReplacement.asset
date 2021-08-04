@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 229304821, guid: b2f7b1f5f5057b749ba5a2c15df41d9f, type: 3}
-  m_Name: sus
+  m_Name: FlamethrowerLemurian_MeshReplacement
   m_EditorClassIdentifier: 
   rendererIndex: 0
-  mesh: {fileID: 4300000, guid: 74bceaa8cd9fcf44ea63b25d71f6368b, type: 2}
+  mesh: {fileID: 4300000, guid: f5dd901c37b87d8489b1b53458d43437, type: 2}
