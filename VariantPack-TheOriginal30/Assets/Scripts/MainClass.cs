@@ -20,7 +20,7 @@ using Path = System.IO.Path;
 #pragma warning restore CS0618 // Type or member is obsolete
 namespace TheOriginal30
 {
-	[BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "1.1.4")]
+	[BepInPlugin("com.Nebby.TheOriginal30", "VP - The Original 30", "1.1.7")]
 	[BepInDependency("com.Nebby.VarianceAPI", BepInDependency.DependencyFlags.HardDependency)]
 	public class MainClass : BaseUnityPlugin
 	{

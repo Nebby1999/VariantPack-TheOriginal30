@@ -33,7 +33,7 @@ MonoBehaviour:
   attackSpeedMultiplier: 0.8
   damageMultiplier: 1.2
   armorMultiplier: 1
-  armorBonus: 300
+  armorBonus: 400
   arrivalMessage: 
   meshReplacement: []
   materialReplacement:

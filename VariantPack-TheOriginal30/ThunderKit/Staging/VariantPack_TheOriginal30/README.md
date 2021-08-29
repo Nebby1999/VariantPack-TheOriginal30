@@ -276,6 +276,10 @@ Unlike the original MonsterVariants, all the Variants from this Variant pack can
 
 - Killing a MOAJ now gives the jellyfish spawned by it a 1 second immunity, to prevent cheesing with Will o the Wisp
 
+- Implemented a unique mesh for flamethrower lemurian
+    
+    - (Armored beetle mesh swap coming soon(tm))
+
 '1.1.6'
 
 - fixed the MOAJ having a bad deathstate type (again)
